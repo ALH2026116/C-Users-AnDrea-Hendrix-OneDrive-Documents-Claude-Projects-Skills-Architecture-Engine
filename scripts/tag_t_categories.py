@@ -186,9 +186,29 @@ KW = {
    # technical-trade documentation (read-to-build, shop floor)
    "blueprint", "schematic", "drawing reading", "specification reading",
    "work instruction reading", "fabrication drawing", "technical manual", "service bulletin"],
+ # SAFETY methodology -> Process. Curated PHRASES only (never bare "safety", which would
+ # catch "safety stock"). Safety leadership/communication is caught by Adaptive first;
+ # equipment-operation/inspection safety skills are kept Technical (see SAFETY_TECH_KEEP).
+ "safety_process": [
+   "lockout", "tagout", "loto", " ppe ", "ppe usage", "ppe use", "personal protective",
+   "hazard communica", "hazard identif", "hazard recognition", "hazard control",
+   "confined space", "hot work", "ergonomic", "chemical handling",
+   "hazardous materials handling", "hazardous materials shipping", "hazmat",
+   "spill prevention", "spill response", "load secur", "lifting practice", "safe lifting",
+   "traffic safety", "yard safety", "unloading safety", "contractor safety",
+   "safety awareness", "safety protocol", "safety check", "safety practice",
+   "safety procedure", "safety policy", "safety audit", "risk assessment (safety)",
+   "site assessment", "equipment tagging"],
 }
 # Digital keywords that are tool-use-in-a-domain (NOT digital) when outside a digital area.
 DOMAIN_TOOL_TERMS = ["crm", "campaign", "erp ", "hris", "cmms", "marketing", "sales pipeline"]
+
+# Safety skills kept TECHNICAL (the skill is operating/inspecting equipment, "safe" is the
+# adjective) -- they skip the safety->Process promotion and fall through to the Technical step.
+SAFETY_TECH_KEEP = ["equipment operation", "pre-use inspection", "equipment pre-use",
+                    "equipment inspection"]
+# skill_type "Safety" rows that are NOT safety methodology (security/shrink) -> stay Role.
+NON_SAFETY_GUARD = ["loss prevention"]
 
 # IT skills that are strategy/governance -> Role-Specific even inside IT.
 IT_ROLE_TERMS = ["strategy", "governance", "vendor", "business alignment", "procurement",
@@ -243,9 +263,18 @@ def classify(row):
         return DIGITAL, conf, f"digital tech build/operate signal (area={area}, kw={d_hit})"
 
     # 3) PROCESS: recognized improvement / quality / safety-system methodology.
-    if p_hit or area == "Continuous Improvement":
-        return PROCESS, ("high" if p_hit and area in ("Continuous Improvement","Quality","Safety & EHS") else "medium"), \
-               f"improvement/methodology signal (area={area}, kw={p_hit})"
+    #    Safety methodology promotes here (skill_type "Safety" or a safety keyword), EXCEPT
+    #    equipment-operation/inspection safety skills (kept Technical) and non-safety "Safety"
+    #    rows like loss prevention. Adaptive already claimed safety leadership/communication.
+    safety_methodology = (stype == "Safety" or kwhit(text, "safety_process")) \
+        and not any(k in text for k in SAFETY_TECH_KEEP) \
+        and not any(k in text for k in NON_SAFETY_GUARD)
+    if p_hit or area == "Continuous Improvement" or safety_methodology:
+        why = ("safety methodology -> Process" if safety_methodology and not p_hit
+               else f"improvement/methodology signal (area={area}, kw={p_hit})")
+        conf = ("high" if p_hit and area in ("Continuous Improvement","Quality","Safety & EHS")
+                else "high" if stype == "Safety" else "medium")
+        return PROCESS, conf, why
 
     # Adaptive carve-out inside Role-Specific areas (e.g. coaching/communication in Sales/HR)
     if a_hit and stype == "Behavioral":

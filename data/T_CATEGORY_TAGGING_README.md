@@ -83,6 +83,13 @@ rollup**. This artifact replaces that proxy with an explicit, auditable per-skil
      data) wins over the equipment signal.
    - **Process before Technical** so methodology (SPC, *PM scheduling*, lean, LOTO) stays
      Process rather than getting pulled into equipment.
+   - **safety methodology promotes to Process** — `skill_type == "Safety"` or a safety
+     keyword (LOTO, PPE, hazard comm/ID, confined space, hot work, ergonomics, chemical
+     handling, hazmat handling, spill/load/lifting/traffic safety) routes to Process,
+     wherever the skill lives. Exceptions: equipment-operation/inspection safety skills stay
+     **Technical** ("safe" is just the adjective), safety *leadership/communication* stays
+     **Adaptive** (Adaptive is checked first), and non-safety "Safety" rows (loss prevention)
+     and regulatory "compliance" / "safety stock" stay **Role-Specific**.
    - a behavioral skill inside a functional domain stays **Role-Specific**, not Adaptive;
    - domain tool-use (CRM, campaign analytics, HRIS) stays **Role-Specific**, not Digital;
    - IT strategy/governance is **Role-Specific** even inside IT.
@@ -95,19 +102,18 @@ rollup**. This artifact replaces that proxy with an explicit, auditable per-skil
 
 | Category | This pass | Rubric target |
 | --- | --- | --- |
-| Role-Specific | 49.7% | ~45-50% |
-| Technical | 11.0% | ~10-14% |
-| Process | 11.9% | ~12-16% |
+| Role-Specific | 45.0% | ~45-50% |
+| Process | 16.8% | ~12-16% |
 | Adaptive | 15.7% | ~15-18% |
 | Digital | 11.7% | ~10-13% |
+| Technical | 10.8% | ~10-14% |
 
-Adaptive, Digital, Technical, and Role-Specific land in target. **Process runs a few points
-light** — the rubric splits Quality / Safety / Operations skills between *Process*
-(methodology) and *Role-Specific* (domain), and that split is a human judgment call. The
-heuristic defaults the ambiguous ones to Role-Specific and flags them. Start review there.
-Note that **safety skills outside the "Safety & EHS" area** (e.g. LOTO / PPE in Manufacturing,
-Service, Warehouse) currently fall to Role-Specific — promote them to Process on review if
-you treat safety as a methodology bucket.
+All five categories land in (or right at the edge of) target. Safety methodology is now
+treated as a Process bucket wherever it lives — LOTO, PPE, hazard ID, confined space, hot
+work, ergonomics, chemical/hazmat handling across Manufacturing, Service, Warehouse,
+Maintenance, etc. all promote to Process rather than sitting in Role-Specific. The remaining
+**Process vs. Role-Specific** judgment calls are the Quality / Operations boundary (defect ID,
+inspection, rework — domain vs. methodology); those default to Role-Specific and are flagged.
 
 ## How to use
 

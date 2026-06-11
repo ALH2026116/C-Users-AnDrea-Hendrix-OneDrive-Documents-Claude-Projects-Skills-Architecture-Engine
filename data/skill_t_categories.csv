@@ -57,7 +57,7 @@ CORE-PSCT-001,Problem Identification,Universal Core,Problem Solving & Critical T
 CORE-PSCT-002,Critical Thinking,Universal Core,Problem Solving & Critical Thinking,Behavioral,adaptive,high,"general/behavioral capability (type=Behavioral, area=Universal Core)",adaptive,
 CORE-PSCT-003,Decision Making,Universal Core,Problem Solving & Critical Thinking,Behavioral,adaptive,high,"general/behavioral capability (type=Behavioral, area=Universal Core)",adaptive,
 CORE-PSCT-004,Troubleshooting,Universal Core,Problem Solving & Critical Thinking,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Universal Core)",adaptive,REVIEW
-CORE-SAFE-001,Safety Awareness,Universal Core,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Universal Core)",adaptive,REVIEW
+CORE-SAFE-001,Safety Awareness,Universal Core,Safety & Compliance,Safety,process,high,safety methodology -> Process,adaptive,REVIEW
 CORE-SAFE-002,Policy Adherence,Universal Core,Safety & Compliance,Behavioral,adaptive,medium,"general/behavioral capability (type=Behavioral, area=Universal Core)",adaptive,
 CORE-SAFE-003,Confidentiality,Universal Core,Safety & Compliance,Behavioral,adaptive,medium,"general/behavioral capability (type=Behavioral, area=Universal Core)",adaptive,
 CORE-TTM-001,Prioritization,Universal Core,Task & Time Management,Behavioral,adaptive,high,"general/behavioral capability (type=Behavioral, area=Universal Core)",adaptive,
@@ -117,21 +117,21 @@ DIST-OPS-004,Equipment Check-In Procedures,Distribution,Distribution Operations,
 DIST-OPS-005,Equipment Check-Out Procedures,Distribution,Distribution Operations,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Distribution)",role_specific,
 DIST-OPS-006,Inventory Location Accuracy,Distribution,Distribution Operations,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Distribution)",role_specific,
 DIST-OPS-007,Yard Organization,Distribution,Distribution Operations,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Distribution)",role_specific,
-DIST-SAFE-001,Yard Safety Practices,Distribution,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Distribution)",role_specific,
-DIST-SAFE-002,Load Securement Awareness,Distribution,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Distribution)",role_specific,
-DIST-SAFE-003,Equipment Tagging Procedures,Distribution,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Distribution)",role_specific,
-DIST-SAFE-004,Hazard Communication (Distribution),Distribution,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Distribution)",role_specific,
+DIST-SAFE-001,Yard Safety Practices,Distribution,Safety & Compliance,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
+DIST-SAFE-002,Load Securement Awareness,Distribution,Safety & Compliance,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
+DIST-SAFE-003,Equipment Tagging Procedures,Distribution,Safety & Compliance,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
+DIST-SAFE-004,Hazard Communication (Distribution),Distribution,Safety & Compliance,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
 EHS-COMP-001,OSHA Compliance Support,Safety & EHS,Safety Programs & Compliance,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Safety & EHS)",process,REVIEW
-EHS-COMP-002,Safety Policy Implementation,Safety & EHS,Safety Programs & Compliance,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Safety & EHS)",process,REVIEW
+EHS-COMP-002,Safety Policy Implementation,Safety & EHS,Safety Programs & Compliance,Operational,process,medium,safety methodology -> Process,process,
 EHS-COMP-003,Safety Audit Support,Safety & EHS,Safety Programs & Compliance,Operational,process,high,"improvement/methodology signal (area=Safety & EHS, kw=True)",process,
 EHS-EMR-001,Emergency Response Procedures,Safety & EHS,Emergency Preparedness,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Safety & EHS)",process,REVIEW
 EHS-EMR-002,First Aid & CPR Support,Safety & EHS,Emergency Preparedness,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Safety & EHS)",process,REVIEW
 EHS-EMR-003,Drill Coordination,Safety & EHS,Emergency Preparedness,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Safety & EHS)",process,REVIEW
 EHS-ENV-001,Waste Handling & Disposal,Safety & EHS,Environmental Management,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Safety & EHS)",process,REVIEW
-EHS-ENV-002,Spill Prevention & Response,Safety & EHS,Environmental Management,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Safety & EHS)",process,REVIEW
+EHS-ENV-002,Spill Prevention & Response,Safety & EHS,Environmental Management,Operational,process,medium,safety methodology -> Process,process,
 EHS-ENV-003,Environmental Compliance (EHS),Safety & EHS,Environmental Management,Technical,role_specific,high,explicit rubric anchor/edge-case decision,process,REVIEW
-EHS-HAZ-001,Hazard Recognition,Safety & EHS,Hazard Identification & Control,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Safety & EHS)",process,REVIEW
-EHS-HAZ-002,Risk Assessment (Safety),Safety & EHS,Hazard Identification & Control,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Safety & EHS)",process,REVIEW
+EHS-HAZ-001,Hazard Recognition,Safety & EHS,Hazard Identification & Control,Operational,process,medium,safety methodology -> Process,process,
+EHS-HAZ-002,Risk Assessment (Safety),Safety & EHS,Hazard Identification & Control,Technical,process,medium,safety methodology -> Process,process,
 EHS-HAZ-003,Control Implementation,Safety & EHS,Hazard Identification & Control,Operational,process,high,explicit rubric anchor/edge-case decision,process,
 EHS-INC-001,Incident Response,Safety & EHS,Incident Response & Investigation,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Safety & EHS)",process,REVIEW
 EHS-INC-002,Incident Reporting,Safety & EHS,Incident Response & Investigation,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Safety & EHS)",process,REVIEW
@@ -151,7 +151,7 @@ ENG-DOC-014,Technical Specification Writing,Engineering & R&D,Engineering Docume
 ENG-DOC-015,Bill of Materials Management,Engineering & R&D,Engineering Documentation,Operational,process,medium,"improvement/methodology signal (area=Engineering & R&D, kw=True)",role_specific,REVIEW
 ENG-IE-001,Time Study & Work Measurement,Engineering & R&D,Industrial Engineering,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Engineering & R&D)",role_specific,
 ENG-IE-002,Line Balancing & Workstation Design,Engineering & R&D,Industrial Engineering,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Engineering & R&D)",role_specific,
-ENG-IE-003,Ergonomic Job Design & Assessment,Engineering & R&D,Industrial Engineering,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Engineering & R&D)",role_specific,
+ENG-IE-003,Ergonomic Job Design & Assessment,Engineering & R&D,Industrial Engineering,Technical,process,medium,safety methodology -> Process,role_specific,REVIEW
 ENG-IE-004,Facility Layout & Material Flow Optimization,Engineering & R&D,Industrial Engineering,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Engineering & R&D)",role_specific,
 ENG-IE-005,Labor Standards & Workforce Planning,Engineering & R&D,Industrial Engineering,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Engineering & R&D)",role_specific,
 ENG-PRC-009,Process Development,Engineering & R&D,Process Engineering,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Engineering & R&D)",role_specific,
@@ -176,7 +176,7 @@ ESG-ESG-010,Sustainable Procurement Support,Environmental & Sustain,Sustainabili
 ESG-ESG-011,Employee Sustainability Engagement,Environmental & Sustain,Sustainability Programs,Behavioral,process,medium,"improvement/methodology signal (area=Environmental & Sustain, kw=True)",process,
 ESG-PER-012,Environmental Permit Management,Environmental & Sustain,Environmental Permits,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Environmental & Sustain)",process,REVIEW
 ESG-PER-013,Environmental Inspection Readiness,Environmental & Sustain,Environmental Permits,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Environmental & Sustain)",process,REVIEW
-ESG-PER-014,Spill Prevention & Response Planning,Environmental & Sustain,Environmental Permits,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Environmental & Sustain)",process,REVIEW
+ESG-PER-014,Spill Prevention & Response Planning,Environmental & Sustain,Environmental Permits,Safety,process,high,safety methodology -> Process,process,
 ESG-RPT-015,Environmental Data Collection & Reporting,Environmental & Sustain,Environmental Data,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Environmental & Sustain)",process,REVIEW
 ESG-RPT-016,Environmental Mgmt System Support,Environmental & Sustain,Environmental Data,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Environmental & Sustain)",process,REVIEW
 ESG-RPT-017,Life Cycle Assessment Awareness,Environmental & Sustain,Environmental Data,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Environmental & Sustain)",process,REVIEW
@@ -193,7 +193,7 @@ FAC-OPS-003,Space & Layout Support,Facilities,Facility Operations,Operational,ro
 FAC-PM-001,Preventive Maintenance Scheduling,Facilities,Preventive Maintenance,Operational,process,medium,"improvement/methodology signal (area=Facilities, kw=True)",role_specific,REVIEW
 FAC-PM-002,Equipment Lubrication & Care,Facilities,Preventive Maintenance,Technical,technical,high,"equipment/hardware hands-on signal (area=Facilities, kw=True)",role_specific,REVIEW
 FAC-PM-003,Inspection & Testing,Facilities,Preventive Maintenance,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Facilities)",role_specific,
-FAC-SAFE-001,Facility Safety Checks,Facilities,Safety & Environmental Alignment,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Facilities)",role_specific,
+FAC-SAFE-001,Facility Safety Checks,Facilities,Safety & Environmental Alignment,Operational,process,medium,safety methodology -> Process,role_specific,REVIEW
 FAC-SAFE-002,Emergency Equipment Maintenance,Facilities,Safety & Environmental Alignment,Technical,technical,high,"equipment/hardware hands-on signal (area=Facilities, kw=True)",role_specific,REVIEW
 FAC-SAFE-003,Environmental Compliance (Facilities),Facilities,Safety & Environmental Alignment,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Facilities)",role_specific,
 FAC-VEND-001,Vendor Scheduling,Facilities,Vendor & Contractor Coordination,Behavioral,process,medium,"improvement/methodology signal (area=Facilities, kw=True)",role_specific,REVIEW
@@ -271,10 +271,10 @@ IEM-QA-001,Quality Check Execution,Mfg Operations,Quality & Inspection,Technical
 IEM-QA-002,Defect Identification (Production),Mfg Operations,Quality & Inspection,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Mfg Operations)",role_specific,
 IEM-QA-003,Rework Procedures,Mfg Operations,Quality & Inspection,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Mfg Operations)",role_specific,
 IEM-QA-004,Measurement Tools Use,Mfg Operations,Quality & Inspection,Technical,technical,high,"equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",role_specific,REVIEW
-IEM-SAFE-001,Safety Protocol Adherence,Mfg Operations,Safety & Compliance,Safety,process,medium,"improvement/methodology signal (area=Mfg Operations, kw=True)",role_specific,REVIEW
-IEM-SAFE-002,Lockout/Tagout Awareness,Mfg Operations,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Mfg Operations)",role_specific,
-IEM-SAFE-003,Chemical Handling Awareness,Mfg Operations,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Mfg Operations)",role_specific,
-IEM-SAFE-004,Ergonomics Awareness,Mfg Operations,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Mfg Operations)",role_specific,
+IEM-SAFE-001,Safety Protocol Adherence,Mfg Operations,Safety & Compliance,Safety,process,high,"improvement/methodology signal (area=Mfg Operations, kw=True)",role_specific,REVIEW
+IEM-SAFE-002,Lockout/Tagout Awareness,Mfg Operations,Safety & Compliance,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
+IEM-SAFE-003,Chemical Handling Awareness,Mfg Operations,Safety & Compliance,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
+IEM-SAFE-004,Ergonomics Awareness,Mfg Operations,Safety & Compliance,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
 IT-DATA-001,Data Encryption & Protection,IT & Cybersecurity,Data Protection & Privacy,Technical,digital,high,"digital tech build/operate signal (area=IT & Cybersecurity, kw=True)",digital,
 IT-DATA-002,Data Handling & Classification,IT & Cybersecurity,Data Protection & Privacy,Operational,digital,medium,"digital tech build/operate signal (area=IT & Cybersecurity, kw=False)",digital,
 IT-DATA-003,Data Recovery Support,IT & Cybersecurity,Data Protection & Privacy,Technical,digital,medium,"digital tech build/operate signal (area=IT & Cybersecurity, kw=False)",digital,
@@ -332,12 +332,12 @@ LSC-PROC-002,Vendor Communication,Logistics & Supply Chain,Procurement Support,B
 LSC-PROC-003,Material Quality Verification,Logistics & Supply Chain,Procurement Support,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Logistics & Supply Chain)",role_specific,
 LSC-REC-001,Receiving Procedures,Logistics & Supply Chain,Receiving,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Logistics & Supply Chain)",role_specific,
 LSC-REC-002,Bill of Lading Verification,Logistics & Supply Chain,Receiving,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Logistics & Supply Chain)",role_specific,
-LSC-REC-003,Unloading Safety,Logistics & Supply Chain,Receiving,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Logistics & Supply Chain)",role_specific,
+LSC-REC-003,Unloading Safety,Logistics & Supply Chain,Receiving,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
 LSC-SAFE-001,Forklift Safety Awareness,Logistics & Supply Chain,Safety & Compliance,Safety,technical,medium,"equipment/hardware hands-on signal (area=Logistics & Supply Chain, kw=True)",role_specific,REVIEW
-LSC-SAFE-002,Hazard Communication (Logistics),Logistics & Supply Chain,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Logistics & Supply Chain)",role_specific,
-LSC-SAFE-003,Chemical Handling (Logistics),Logistics & Supply Chain,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Logistics & Supply Chain)",role_specific,
+LSC-SAFE-002,Hazard Communication (Logistics),Logistics & Supply Chain,Safety & Compliance,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
+LSC-SAFE-003,Chemical Handling (Logistics),Logistics & Supply Chain,Safety & Compliance,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
 LSC-TRANS-001,Load Planning,Logistics & Supply Chain,Transportation,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Logistics & Supply Chain)",role_specific,
-LSC-TRANS-004,Load Securement,Logistics & Supply Chain,Transportation,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Logistics & Supply Chain)",role_specific,
+LSC-TRANS-004,Load Securement,Logistics & Supply Chain,Transportation,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
 LSC-WH-001,Put‑Away Procedures,Logistics & Supply Chain,Warehousing,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Logistics & Supply Chain)",role_specific,
 LSC-WH-002,Warehouse Organization,Logistics & Supply Chain,Warehousing,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Logistics & Supply Chain)",role_specific,
 LSC-WH-003,Material Picking,Logistics & Supply Chain,Warehousing,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Logistics & Supply Chain)",role_specific,
@@ -367,7 +367,7 @@ MFG-PAINT-004,Paint Mixing & Color Matching,Manufacturing,Industrial Painting & 
 MFG-PAINT-005,Coating Thickness Measurement,Manufacturing,Industrial Painting & Coating,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
 MFG-PAINT-006,Paint Booth Operation & Maintenance,Manufacturing,Industrial Painting & Coating,Operational,technical,medium,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
 MFG-PAINT-007,Coating Defect Analysis,Manufacturing,Industrial Painting & Coating,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-PAINT-008,Coating Safety & Hazardous Materials Handling,Manufacturing,Industrial Painting & Coating,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Manufacturing)",role_specific,
+MFG-PAINT-008,Coating Safety & Hazardous Materials Handling,Manufacturing,Industrial Painting & Coating,Operational,process,medium,safety methodology -> Process,role_specific,REVIEW
 MFG-PROC-001,Process Parameter Monitoring,Manufacturing,Process Control & Efficiency,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Manufacturing)",role_specific,
 MFG-PROC-002,Waste & Defect Reduction,Manufacturing,Process Control & Efficiency,Behavioral,process,medium,"improvement/methodology signal (area=Manufacturing, kw=True)",role_specific,REVIEW
 MFG-PROC-003,Cycle Time Optimization Support,Manufacturing,Process Control & Efficiency,Operational,process,medium,"improvement/methodology signal (area=Manufacturing, kw=True)",role_specific,REVIEW
@@ -375,8 +375,8 @@ MFG-QUAL-001,First‑Piece Inspection,Manufacturing,Operator‑Level Quality Ski
 MFG-QUAL-002,In‑Process Checks,Manufacturing,Operator‑Level Quality Skills,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Manufacturing)",role_specific,
 MFG-QUAL-003,Defect Identification & Escalation,Manufacturing,Operator‑Level Quality Skills,Behavioral,role_specific,low,"domain expertise fallback (type=Behavioral, area=Manufacturing)",role_specific,REVIEW
 MFG-SAFE-001,Safe Equipment Operation,Manufacturing,Safety & Compliance,Operational,technical,medium,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
-MFG-SAFE-002,Lockout/Tagout (LOTO) Awareness,Manufacturing,Safety & Compliance,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-SAFE-003,PPE Usage & Compliance,Manufacturing,Safety & Compliance,Behavioral,role_specific,low,"domain expertise fallback (type=Behavioral, area=Manufacturing)",role_specific,REVIEW
+MFG-SAFE-002,Lockout/Tagout (LOTO) Awareness,Manufacturing,Safety & Compliance,Technical,process,medium,safety methodology -> Process,role_specific,REVIEW
+MFG-SAFE-003,PPE Usage & Compliance,Manufacturing,Safety & Compliance,Behavioral,process,medium,safety methodology -> Process,role_specific,REVIEW
 MFG-SUPP-003,Cross‑Functional Communication,Manufacturing,Production Support & Documentation,Behavioral,adaptive,medium,"general/behavioral capability (type=Behavioral, area=Manufacturing)",role_specific,REVIEW
 MFG-TECH-001,Basic Mechanical Troubleshooting,Manufacturing,Equipment & Technical Skills,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
 MFG-TECH-002,Measurement Tool Usage,Manufacturing,Equipment & Technical Skills,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
@@ -388,7 +388,7 @@ MFG-WELD-004,Weld Joint Preparation & Fit-Up,Manufacturing,Welding & Fabrication
 MFG-WELD-005,Weld Quality Inspection,Manufacturing,Welding & Fabrication,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
 MFG-WELD-006,Fabrication Drawing & Symbol Reading,Manufacturing,Welding & Fabrication,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
 MFG-WELD-007,Metal Cutting & Forming,Manufacturing,Welding & Fabrication,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
-MFG-WELD-008,Welding Safety & Hot Work Practices,Manufacturing,Welding & Fabrication,Safety,technical,medium,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-WELD-008,Welding Safety & Hot Work Practices,Manufacturing,Welding & Fabrication,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
 MGMT-ADM-001,Policy & Procedure Enforcement,Management,Administrative & Compliance Management,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Management)",role_specific,
 MGMT-ADM-002,Documentation Oversight,Management,Administrative & Compliance Management,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Management)",role_specific,
 MGMT-ADM-003,Incident Reporting Oversight,Management,Administrative & Compliance Management,Operational,process,medium,"improvement/methodology signal (area=Management, kw=True)",role_specific,REVIEW
@@ -403,7 +403,7 @@ MGMT-PQM-002,KPI Tracking,Management,Performance & Quality Management,Operationa
 MGMT-PQM-003,Corrective Action Implementation,Management,Performance & Quality Management,Operational,process,medium,"improvement/methodology signal (area=Management, kw=True)",role_specific,REVIEW
 MGMT-PQM-004,Coaching for Performance,Management,Performance & Quality Management,Behavioral,adaptive,high,explicit rubric anchor/edge-case decision,role_specific,REVIEW
 MGMT-SAFE-001,Safety Leadership,Management,Safety & Risk Management,Behavioral,adaptive,medium,"general/behavioral capability (type=Behavioral, area=Management)",role_specific,REVIEW
-MGMT-SAFE-002,Hazard Identification Oversight,Management,Safety & Risk Management,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Management)",role_specific,
+MGMT-SAFE-002,Hazard Identification Oversight,Management,Safety & Risk Management,Operational,process,medium,safety methodology -> Process,role_specific,REVIEW
 MGMT-SAFE-003,Emergency Response Coordination,Management,Safety & Risk Management,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Management)",role_specific,
 MGMT-WFM-001,Scheduling & Staffing,Management,Workforce Management,Operational,process,medium,"improvement/methodology signal (area=Management, kw=True)",role_specific,REVIEW
 MGMT-WFM-002,Task Assignment,Management,Workforce Management,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Management)",role_specific,
@@ -463,9 +463,9 @@ MNT-REL-007,Equipment Criticality Assessment,Maintenance & Reliab,Reliability En
 MNT-REL-008,Predictive Maintenance Techniques,Maintenance & Reliab,Reliability Engineering,Technical,technical,high,"equipment/hardware hands-on signal (area=Maintenance & Reliab, kw=True)",role_specific,REVIEW
 MNT-REL-009,Reliability Data Analysis,Maintenance & Reliab,Reliability Engineering,Technical,digital,high,explicit rubric anchor/edge-case decision,role_specific,REVIEW
 MNT-REL-010,Maintenance Strategy Development,Maintenance & Reliab,Reliability Engineering,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Maintenance & Reliab)",role_specific,
-MNT-SAF-014,Lockout-Tagout Compliance,Maintenance & Reliab,Maintenance Safety,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Maintenance & Reliab)",role_specific,
-MNT-SAF-015,Confined Space & Hot Work Safety,Maintenance & Reliab,Maintenance Safety,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Maintenance & Reliab)",role_specific,
-MNT-SAF-016,Contractor Safety Coordination,Maintenance & Reliab,Maintenance Safety,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Maintenance & Reliab)",role_specific,
+MNT-SAF-014,Lockout-Tagout Compliance,Maintenance & Reliab,Maintenance Safety,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
+MNT-SAF-015,Confined Space & Hot Work Safety,Maintenance & Reliab,Maintenance Safety,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
+MNT-SAF-016,Contractor Safety Coordination,Maintenance & Reliab,Maintenance Safety,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
 MNT-SYS-011,Work Order Management,Maintenance & Reliab,Maintenance Systems,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Maintenance & Reliab)",role_specific,
 MNT-SYS-012,Maintenance Scheduling & Coordination,Maintenance & Reliab,Maintenance Systems,Operational,process,medium,"improvement/methodology signal (area=Maintenance & Reliab, kw=True)",role_specific,REVIEW
 MNT-SYS-013,Maintenance Budget Tracking,Maintenance & Reliab,Maintenance Systems,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Maintenance & Reliab)",role_specific,
@@ -623,7 +623,7 @@ SERV-DOC-001,Service Ticket Completion,Service & Support,Documentation & Reporti
 SERV-DOC-002,Inspection Report Completion,Service & Support,Documentation & Reporting,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Service & Support)",role_specific,
 SERV-DOC-003,Parts & Labor Recording,Service & Support,Documentation & Reporting,Operational,process,medium,"improvement/methodology signal (area=Service & Support, kw=True)",role_specific,REVIEW
 SERV-FLD-001,Field Service Readiness,Service & Support,Field Operations,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Service & Support)",role_specific,
-SERV-FLD-002,Site Assessment,Service & Support,Field Operations,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Service & Support)",role_specific,
+SERV-FLD-002,Site Assessment,Service & Support,Field Operations,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
 SERV-FLD-003,Equipment Inspection (Onsite),Service & Support,Field Operations,Technical,technical,high,"equipment/hardware hands-on signal (area=Service & Support, kw=True)",role_specific,REVIEW
 SERV-FLD-004,Customer Site Conduct,Service & Support,Field Operations,Behavioral,adaptive,medium,"general/behavioral capability (type=Behavioral, area=Service & Support)",role_specific,REVIEW
 SERV-FLD-005,Job Completion Verification,Service & Support,Field Operations,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Service & Support)",role_specific,
@@ -637,9 +637,9 @@ SERV-REP-001,Equipment Troubleshooting (Service),Service & Support,Repairs & Tro
 SERV-REP-002,Component Replacement,Service & Support,Repairs & Troubleshooting,Technical,technical,high,explicit rubric anchor/edge-case decision,role_specific,REVIEW
 SERV-REP-003,Preventive Maintenance Execution,Service & Support,Repairs & Troubleshooting,Technical,process,medium,"improvement/methodology signal (area=Service & Support, kw=True)",role_specific,REVIEW
 SERV-REP-004,Diagnostic Tool Use,Service & Support,Repairs & Troubleshooting,Technical,technical,high,"equipment/hardware hands-on signal (area=Service & Support, kw=True)",role_specific,REVIEW
-SERV-SAFE-001,PPE Use,Service & Support,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Service & Support)",role_specific,
-SERV-SAFE-002,Lockout/Tagout (Service),Service & Support,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Service & Support)",role_specific,
-SERV-SAFE-003,Hazard Identification (Service),Service & Support,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Service & Support)",role_specific,
+SERV-SAFE-001,PPE Use,Service & Support,Safety & Compliance,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
+SERV-SAFE-002,Lockout/Tagout (Service),Service & Support,Safety & Compliance,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
+SERV-SAFE-003,Hazard Identification (Service),Service & Support,Safety & Compliance,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
 SERV-SAFE-004,Safe Equipment Operation (Service),Service & Support,Safety & Compliance,Safety,technical,medium,"equipment/hardware hands-on signal (area=Service & Support, kw=True)",role_specific,REVIEW
 TD-DEL-008,Classroom Facilitation (T&D),Training & Development,Training Delivery,Behavioral,adaptive,high,"general/behavioral capability (type=Behavioral, area=Training & Development)",adaptive,
 TD-DEL-009,On-the-Job Training Coordination,Training & Development,Training Delivery,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Training & Development)",adaptive,REVIEW
@@ -666,7 +666,7 @@ TECH-DIAG-004,Mechanical Diagnostics,Technical Equip & Sys,Diagnostics,Technical
 TECH-DOC-001,Technical Manual Interpretation,Technical Equip & Sys,Technical Documentation,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
 TECH-DOC-002,Service Bulletin Awareness,Technical Equip & Sys,Technical Documentation,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
 TECH-DOC-003,Repair Documentation (Technical),Technical Equip & Sys,Technical Documentation,Operational,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=False)",technical,
-TECH-ELEC-001,Electrical Component Replacement,Technical Equip & Sys,Electrical Systems,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
+TECH-ELEC-001,Electrical Component Replacement,Technical Equip & Sys,Electrical Systems,Technical,process,medium,safety methodology -> Process,technical,REVIEW
 TECH-ELEC-002,Electrical Schematic Reading,Technical Equip & Sys,Electrical Systems,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
 TECH-ELEC-003,Battery & Charging System Testing,Technical Equip & Sys,Electrical Systems,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=False)",technical,
 TECH-EQ-001,Basic Equipment Operation,Technical Equip & Sys,Equipment Operation,Technical,technical,high,explicit rubric anchor/edge-case decision,technical,
@@ -714,13 +714,13 @@ WHL-PICK-003,Batch & Wave Processing,Warehouse & Logistics,Picking & Order Fulfi
 WHL-RCV-001,Inbound Shipment Processing,Warehouse & Logistics,Receiving & Inbound,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Warehouse & Logistics)",role_specific,
 WHL-RCV-002,Dock Operations,Warehouse & Logistics,Receiving & Inbound,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Warehouse & Logistics)",role_specific,
 WHL-RCV-003,Incoming Quality Verification,Warehouse & Logistics,Receiving & Inbound,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Warehouse & Logistics)",role_specific,
-WHL-SAFE-001,Warehouse Traffic Safety,Warehouse & Logistics,Warehouse Safety,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Warehouse & Logistics)",role_specific,
-WHL-SAFE-002,Load Securing & Stacking,Warehouse & Logistics,Warehouse Safety,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Warehouse & Logistics)",role_specific,
-WHL-SAFE-003,Ergonomic Lifting Practices,Warehouse & Logistics,Warehouse Safety,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Warehouse & Logistics)",role_specific,
+WHL-SAFE-001,Warehouse Traffic Safety,Warehouse & Logistics,Warehouse Safety,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
+WHL-SAFE-002,Load Securing & Stacking,Warehouse & Logistics,Warehouse Safety,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
+WHL-SAFE-003,Ergonomic Lifting Practices,Warehouse & Logistics,Warehouse Safety,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
 WHL-SHIP-001,Packing & Packaging,Warehouse & Logistics,Packing & Shipping,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Warehouse & Logistics)",role_specific,
 WHL-SHIP-002,Shipping Documentation,Warehouse & Logistics,Packing & Shipping,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Warehouse & Logistics)",role_specific,
 WHL-SHIP-003,Carrier Coordination,Warehouse & Logistics,Packing & Shipping,Behavioral,role_specific,low,"domain expertise fallback (type=Behavioral, area=Warehouse & Logistics)",role_specific,REVIEW
-WHL-SHIP-004,Hazardous Materials Shipping,Warehouse & Logistics,Packing & Shipping,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Warehouse & Logistics)",role_specific,
+WHL-SHIP-004,Hazardous Materials Shipping,Warehouse & Logistics,Packing & Shipping,Safety,process,high,safety methodology -> Process,role_specific,REVIEW
 WHL-SYS-001,WMS Navigation,Warehouse & Logistics,Warehouse Systems & Technology,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Warehouse & Logistics)",role_specific,
 WHL-SYS-002,RF Scanner / Barcode Use,Warehouse & Logistics,Warehouse Systems & Technology,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Warehouse & Logistics)",role_specific,
 WHL-SYS-003,ERP Warehouse Transactions,Warehouse & Logistics,Warehouse Systems & Technology,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Warehouse & Logistics)",role_specific,

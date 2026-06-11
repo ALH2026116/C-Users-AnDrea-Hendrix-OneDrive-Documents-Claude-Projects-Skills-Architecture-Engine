@@ -701,9 +701,9 @@
   "area": "Universal Core",
   "sub": "Safety & Compliance",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Universal Core)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "adaptive",
   "review_flag": "REVIEW"
  },
@@ -1421,11 +1421,11 @@
   "area": "Distribution",
   "sub": "Safety & Compliance",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Distribution)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "DIST-SAFE-002",
@@ -1433,11 +1433,11 @@
   "area": "Distribution",
   "sub": "Safety & Compliance",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Distribution)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "DIST-SAFE-003",
@@ -1445,11 +1445,11 @@
   "area": "Distribution",
   "sub": "Safety & Compliance",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Distribution)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "DIST-SAFE-004",
@@ -1457,11 +1457,11 @@
   "area": "Distribution",
   "sub": "Safety & Compliance",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Distribution)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "EHS-COMP-001",
@@ -1481,11 +1481,11 @@
   "area": "Safety & EHS",
   "sub": "Safety Programs & Compliance",
   "skill_type": "Operational",
-  "t_category": "role_specific",
+  "t_category": "process",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Operational, area=Safety & EHS)",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "process",
-  "review_flag": "REVIEW"
+  "review_flag": ""
  },
  {
   "id": "EHS-COMP-003",
@@ -1553,11 +1553,11 @@
   "area": "Safety & EHS",
   "sub": "Environmental Management",
   "skill_type": "Operational",
-  "t_category": "role_specific",
+  "t_category": "process",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Operational, area=Safety & EHS)",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "process",
-  "review_flag": "REVIEW"
+  "review_flag": ""
  },
  {
   "id": "EHS-ENV-003",
@@ -1577,11 +1577,11 @@
   "area": "Safety & EHS",
   "sub": "Hazard Identification & Control",
   "skill_type": "Operational",
-  "t_category": "role_specific",
+  "t_category": "process",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Operational, area=Safety & EHS)",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "process",
-  "review_flag": "REVIEW"
+  "review_flag": ""
  },
  {
   "id": "EHS-HAZ-002",
@@ -1589,11 +1589,11 @@
   "area": "Safety & EHS",
   "sub": "Hazard Identification & Control",
   "skill_type": "Technical",
-  "t_category": "role_specific",
+  "t_category": "process",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Safety & EHS)",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "process",
-  "review_flag": "REVIEW"
+  "review_flag": ""
  },
  {
   "id": "EHS-HAZ-003",
@@ -1829,11 +1829,11 @@
   "area": "Engineering & R&D",
   "sub": "Industrial Engineering",
   "skill_type": "Technical",
-  "t_category": "role_specific",
+  "t_category": "process",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Engineering & R&D)",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "ENG-IE-004",
@@ -2129,11 +2129,11 @@
   "area": "Environmental & Sustain",
   "sub": "Environmental Permits",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Environmental & Sustain)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "process",
-  "review_flag": "REVIEW"
+  "review_flag": ""
  },
  {
   "id": "ESG-RPT-015",
@@ -2333,11 +2333,11 @@
   "area": "Facilities",
   "sub": "Safety & Environmental Alignment",
   "skill_type": "Operational",
-  "t_category": "role_specific",
+  "t_category": "process",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Operational, area=Facilities)",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "FAC-SAFE-002",
@@ -3270,7 +3270,7 @@
   "sub": "Safety & Compliance",
   "skill_type": "Safety",
   "t_category": "process",
-  "confidence": "medium",
+  "confidence": "high",
   "rationale": "improvement/methodology signal (area=Mfg Operations, kw=True)",
   "area_proxy_t": "role_specific",
   "review_flag": "REVIEW"
@@ -3281,11 +3281,11 @@
   "area": "Mfg Operations",
   "sub": "Safety & Compliance",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Mfg Operations)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "IEM-SAFE-003",
@@ -3293,11 +3293,11 @@
   "area": "Mfg Operations",
   "sub": "Safety & Compliance",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Mfg Operations)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "IEM-SAFE-004",
@@ -3305,11 +3305,11 @@
   "area": "Mfg Operations",
   "sub": "Safety & Compliance",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Mfg Operations)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "IT-DATA-001",
@@ -4001,11 +4001,11 @@
   "area": "Logistics & Supply Chain",
   "sub": "Receiving",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Logistics & Supply Chain)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "LSC-SAFE-001",
@@ -4025,11 +4025,11 @@
   "area": "Logistics & Supply Chain",
   "sub": "Safety & Compliance",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Logistics & Supply Chain)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "LSC-SAFE-003",
@@ -4037,11 +4037,11 @@
   "area": "Logistics & Supply Chain",
   "sub": "Safety & Compliance",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Logistics & Supply Chain)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "LSC-TRANS-001",
@@ -4061,11 +4061,11 @@
   "area": "Logistics & Supply Chain",
   "sub": "Transportation",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Logistics & Supply Chain)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "LSC-WH-001",
@@ -4421,11 +4421,11 @@
   "area": "Manufacturing",
   "sub": "Industrial Painting & Coating",
   "skill_type": "Operational",
-  "t_category": "role_specific",
+  "t_category": "process",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Operational, area=Manufacturing)",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-PROC-001",
@@ -4517,11 +4517,11 @@
   "area": "Manufacturing",
   "sub": "Safety & Compliance",
   "skill_type": "Technical",
-  "t_category": "role_specific",
+  "t_category": "process",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-SAFE-003",
@@ -4529,9 +4529,9 @@
   "area": "Manufacturing",
   "sub": "Safety & Compliance",
   "skill_type": "Behavioral",
-  "t_category": "role_specific",
-  "confidence": "low",
-  "rationale": "domain expertise fallback (type=Behavioral, area=Manufacturing)",
+  "t_category": "process",
+  "confidence": "medium",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
   "review_flag": "REVIEW"
  },
@@ -4673,9 +4673,9 @@
   "area": "Manufacturing",
   "sub": "Welding & Fabrication",
   "skill_type": "Safety",
-  "t_category": "technical",
-  "confidence": "medium",
-  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
   "review_flag": "REVIEW"
  },
@@ -4853,11 +4853,11 @@
   "area": "Management",
   "sub": "Safety & Risk Management",
   "skill_type": "Operational",
-  "t_category": "role_specific",
+  "t_category": "process",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Operational, area=Management)",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MGMT-SAFE-003",
@@ -5573,11 +5573,11 @@
   "area": "Maintenance & Reliab",
   "sub": "Maintenance Safety",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Maintenance & Reliab)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MNT-SAF-015",
@@ -5585,11 +5585,11 @@
   "area": "Maintenance & Reliab",
   "sub": "Maintenance Safety",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Maintenance & Reliab)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MNT-SAF-016",
@@ -5597,11 +5597,11 @@
   "area": "Maintenance & Reliab",
   "sub": "Maintenance Safety",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Maintenance & Reliab)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MNT-SYS-011",
@@ -7493,11 +7493,11 @@
   "area": "Service & Support",
   "sub": "Field Operations",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Service & Support)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "SERV-FLD-003",
@@ -7661,11 +7661,11 @@
   "area": "Service & Support",
   "sub": "Safety & Compliance",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Service & Support)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "SERV-SAFE-002",
@@ -7673,11 +7673,11 @@
   "area": "Service & Support",
   "sub": "Safety & Compliance",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Service & Support)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "SERV-SAFE-003",
@@ -7685,11 +7685,11 @@
   "area": "Service & Support",
   "sub": "Safety & Compliance",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Service & Support)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "SERV-SAFE-004",
@@ -8009,11 +8009,11 @@
   "area": "Technical Equip & Sys",
   "sub": "Electrical Systems",
   "skill_type": "Technical",
-  "t_category": "technical",
-  "confidence": "high",
-  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "t_category": "process",
+  "confidence": "medium",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "technical",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "TECH-ELEC-002",
@@ -8585,11 +8585,11 @@
   "area": "Warehouse & Logistics",
   "sub": "Warehouse Safety",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Warehouse & Logistics)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "WHL-SAFE-002",
@@ -8597,11 +8597,11 @@
   "area": "Warehouse & Logistics",
   "sub": "Warehouse Safety",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Warehouse & Logistics)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "WHL-SAFE-003",
@@ -8609,11 +8609,11 @@
   "area": "Warehouse & Logistics",
   "sub": "Warehouse Safety",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Warehouse & Logistics)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "WHL-SHIP-001",
@@ -8657,11 +8657,11 @@
   "area": "Warehouse & Logistics",
   "sub": "Packing & Shipping",
   "skill_type": "Safety",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Warehouse & Logistics)",
+  "t_category": "process",
+  "confidence": "high",
+  "rationale": "safety methodology -> Process",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "WHL-SYS-001",
