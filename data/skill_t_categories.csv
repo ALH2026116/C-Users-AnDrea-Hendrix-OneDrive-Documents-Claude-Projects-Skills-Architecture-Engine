@@ -184,17 +184,17 @@ ESG-RPT-018,Remediation & Corrective Action Support,Environmental & Sustain,Envi
 ESG-WM-001,Waste Stream Management,Environmental & Sustain,Waste Management,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Environmental & Sustain)",process,REVIEW
 ESG-WM-002,Waste Reduction & Diversion,Environmental & Sustain,Waste Management,Operational,process,medium,"improvement/methodology signal (area=Environmental & Sustain, kw=True)",process,
 ESG-WM-003,Hazardous Waste Compliance,Environmental & Sustain,Waste Management,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Environmental & Sustain)",process,REVIEW
-FAC-EQP-001,Equipment Troubleshooting (Facilities),Facilities,Equipment Maintenance & Repair,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Facilities)",role_specific,
-FAC-EQP-002,Minor Repairs,Facilities,Equipment Maintenance & Repair,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Facilities)",role_specific,
+FAC-EQP-001,Equipment Troubleshooting (Facilities),Facilities,Equipment Maintenance & Repair,Technical,technical,high,"equipment/hardware hands-on signal (area=Facilities, kw=True)",role_specific,REVIEW
+FAC-EQP-002,Minor Repairs,Facilities,Equipment Maintenance & Repair,Technical,technical,high,"equipment/hardware hands-on signal (area=Facilities, kw=True)",role_specific,REVIEW
 FAC-EQP-003,Repair Documentation (Facilities),Facilities,Equipment Maintenance & Repair,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Facilities)",role_specific,
 FAC-OPS-001,Facility Walkthroughs,Facilities,Facility Operations,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Facilities)",role_specific,
-FAC-OPS-002,Building Systems Monitoring,Facilities,Facility Operations,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Facilities)",role_specific,
+FAC-OPS-002,Building Systems Monitoring,Facilities,Facility Operations,Technical,technical,high,"equipment/hardware hands-on signal (area=Facilities, kw=True)",role_specific,REVIEW
 FAC-OPS-003,Space & Layout Support,Facilities,Facility Operations,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Facilities)",role_specific,
 FAC-PM-001,Preventive Maintenance Scheduling,Facilities,Preventive Maintenance,Operational,process,medium,"improvement/methodology signal (area=Facilities, kw=True)",role_specific,REVIEW
-FAC-PM-002,Equipment Lubrication & Care,Facilities,Preventive Maintenance,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Facilities)",role_specific,
+FAC-PM-002,Equipment Lubrication & Care,Facilities,Preventive Maintenance,Technical,technical,high,"equipment/hardware hands-on signal (area=Facilities, kw=True)",role_specific,REVIEW
 FAC-PM-003,Inspection & Testing,Facilities,Preventive Maintenance,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Facilities)",role_specific,
 FAC-SAFE-001,Facility Safety Checks,Facilities,Safety & Environmental Alignment,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Facilities)",role_specific,
-FAC-SAFE-002,Emergency Equipment Maintenance,Facilities,Safety & Environmental Alignment,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Facilities)",role_specific,
+FAC-SAFE-002,Emergency Equipment Maintenance,Facilities,Safety & Environmental Alignment,Technical,technical,high,"equipment/hardware hands-on signal (area=Facilities, kw=True)",role_specific,REVIEW
 FAC-SAFE-003,Environmental Compliance (Facilities),Facilities,Safety & Environmental Alignment,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Facilities)",role_specific,
 FAC-VEND-001,Vendor Scheduling,Facilities,Vendor & Contractor Coordination,Behavioral,process,medium,"improvement/methodology signal (area=Facilities, kw=True)",role_specific,REVIEW
 FAC-VEND-002,Service Verification,Facilities,Vendor & Contractor Coordination,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Facilities)",role_specific,
@@ -248,8 +248,8 @@ HR-WFP-003,Succession & Talent Pipeline Support,HR,Workforce Planning & Support,
 IEM-DOC-001,Production Documentation,Mfg Operations,Documentation & Reporting,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Mfg Operations)",role_specific,
 IEM-DOC-002,Traceability Documentation,Mfg Operations,Documentation & Reporting,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Mfg Operations)",role_specific,
 IEM-DOC-003,Change Request Documentation,Mfg Operations,Documentation & Reporting,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Mfg Operations)",role_specific,
-IEM-EQM-001,Basic Equipment Troubleshooting,Mfg Operations,Equipment & Maintenance,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Mfg Operations)",role_specific,
-IEM-EQM-002,Preventive Maintenance Support,Mfg Operations,Equipment & Maintenance,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Mfg Operations)",role_specific,
+IEM-EQM-001,Basic Equipment Troubleshooting,Mfg Operations,Equipment & Maintenance,Technical,technical,high,"equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",role_specific,REVIEW
+IEM-EQM-002,Preventive Maintenance Support,Mfg Operations,Equipment & Maintenance,Technical,technical,high,"equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",role_specific,REVIEW
 IEM-EQM-003,Equipment Care and Cleaning,Mfg Operations,Equipment & Maintenance,Operational,process,medium,"improvement/methodology signal (area=Mfg Operations, kw=True)",role_specific,REVIEW
 IEM-LEAN-001,Lean Manufacturing Awareness,Mfg Operations,Lean & Efficiency,Operational,process,medium,"improvement/methodology signal (area=Mfg Operations, kw=True)",role_specific,REVIEW
 IEM-LEAN-002,5S Practices,Mfg Operations,Lean & Efficiency,Operational,process,high,explicit rubric anchor/edge-case decision,role_specific,REVIEW
@@ -258,19 +258,19 @@ IEM-MFI-001,Material Staging,Mfg Operations,Material Flow & Inventory,Operationa
 IEM-MFI-002,Inventory Accuracy Support,Mfg Operations,Material Flow & Inventory,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Mfg Operations)",role_specific,
 IEM-MFI-003,Stock Rotation,Mfg Operations,Material Flow & Inventory,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Mfg Operations)",role_specific,
 IEM-PROD-001,Production Workflow Execution,Mfg Operations,Production Operations,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Mfg Operations)",role_specific,
-IEM-PROD-002,Assembly Procedures,Mfg Operations,Production Operations,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Mfg Operations)",role_specific,
-IEM-PROD-003,Machine Operation,Mfg Operations,Production Operations,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Mfg Operations)",role_specific,
-IEM-PROD-004,Equipment Setup,Mfg Operations,Production Operations,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Mfg Operations)",role_specific,
+IEM-PROD-002,Assembly Procedures,Mfg Operations,Production Operations,Technical,technical,high,"equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",role_specific,REVIEW
+IEM-PROD-003,Machine Operation,Mfg Operations,Production Operations,Technical,technical,high,explicit rubric anchor/edge-case decision,role_specific,REVIEW
+IEM-PROD-004,Equipment Setup,Mfg Operations,Production Operations,Technical,technical,high,"equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",role_specific,REVIEW
 IEM-PROD-005,Equipment Shutdown,Mfg Operations,Production Operations,Operational,process,medium,"improvement/methodology signal (area=Mfg Operations, kw=True)",role_specific,REVIEW
 IEM-PROD-006,Material Handling,Mfg Operations,Production Operations,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Mfg Operations)",role_specific,
 IEM-PROD-007,Work Order Interpretation,Mfg Operations,Production Operations,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Mfg Operations)",role_specific,
-IEM-PROD-008,Blueprint and Drawing Reading,Mfg Operations,Production Operations,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Mfg Operations)",role_specific,
-IEM-PROD-009,Tool Use and Care,Mfg Operations,Production Operations,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Mfg Operations)",role_specific,
+IEM-PROD-008,Blueprint and Drawing Reading,Mfg Operations,Production Operations,Technical,technical,high,"equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",role_specific,REVIEW
+IEM-PROD-009,Tool Use and Care,Mfg Operations,Production Operations,Technical,technical,high,"equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",role_specific,REVIEW
 IEM-PROD-010,Line Balancing Awareness,Mfg Operations,Production Operations,Operational,process,medium,"improvement/methodology signal (area=Mfg Operations, kw=True)",role_specific,REVIEW
-IEM-QA-001,Quality Check Execution,Mfg Operations,Quality & Inspection,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Mfg Operations)",role_specific,
+IEM-QA-001,Quality Check Execution,Mfg Operations,Quality & Inspection,Technical,technical,high,"equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",role_specific,REVIEW
 IEM-QA-002,Defect Identification (Production),Mfg Operations,Quality & Inspection,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Mfg Operations)",role_specific,
 IEM-QA-003,Rework Procedures,Mfg Operations,Quality & Inspection,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Mfg Operations)",role_specific,
-IEM-QA-004,Measurement Tools Use,Mfg Operations,Quality & Inspection,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Mfg Operations)",role_specific,
+IEM-QA-004,Measurement Tools Use,Mfg Operations,Quality & Inspection,Technical,technical,high,"equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",role_specific,REVIEW
 IEM-SAFE-001,Safety Protocol Adherence,Mfg Operations,Safety & Compliance,Safety,process,medium,"improvement/methodology signal (area=Mfg Operations, kw=True)",role_specific,REVIEW
 IEM-SAFE-002,Lockout/Tagout Awareness,Mfg Operations,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Mfg Operations)",role_specific,
 IEM-SAFE-003,Chemical Handling Awareness,Mfg Operations,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Mfg Operations)",role_specific,
@@ -333,7 +333,7 @@ LSC-PROC-003,Material Quality Verification,Logistics & Supply Chain,Procurement 
 LSC-REC-001,Receiving Procedures,Logistics & Supply Chain,Receiving,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Logistics & Supply Chain)",role_specific,
 LSC-REC-002,Bill of Lading Verification,Logistics & Supply Chain,Receiving,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Logistics & Supply Chain)",role_specific,
 LSC-REC-003,Unloading Safety,Logistics & Supply Chain,Receiving,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Logistics & Supply Chain)",role_specific,
-LSC-SAFE-001,Forklift Safety Awareness,Logistics & Supply Chain,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Logistics & Supply Chain)",role_specific,
+LSC-SAFE-001,Forklift Safety Awareness,Logistics & Supply Chain,Safety & Compliance,Safety,technical,medium,"equipment/hardware hands-on signal (area=Logistics & Supply Chain, kw=True)",role_specific,REVIEW
 LSC-SAFE-002,Hazard Communication (Logistics),Logistics & Supply Chain,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Logistics & Supply Chain)",role_specific,
 LSC-SAFE-003,Chemical Handling (Logistics),Logistics & Supply Chain,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Logistics & Supply Chain)",role_specific,
 LSC-TRANS-001,Load Planning,Logistics & Supply Chain,Transportation,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Logistics & Supply Chain)",role_specific,
@@ -342,30 +342,30 @@ LSC-WH-001,Put‑Away Procedures,Logistics & Supply Chain,Warehousing,Operationa
 LSC-WH-002,Warehouse Organization,Logistics & Supply Chain,Warehousing,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Logistics & Supply Chain)",role_specific,
 LSC-WH-003,Material Picking,Logistics & Supply Chain,Warehousing,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Logistics & Supply Chain)",role_specific,
 LSC-WH-004,Palletizing & Staging,Logistics & Supply Chain,Warehousing,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Logistics & Supply Chain)",role_specific,
-MFG-ASSY-001,Mechanical Assembly,Manufacturing,Assembly Operations,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-ASSY-002,Electrical & Wiring Assembly,Manufacturing,Assembly Operations,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-ASSY-003,Blueprint & Work Instruction Reading,Manufacturing,Assembly Operations,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-ASSY-004,Soldering & Brazing,Manufacturing,Assembly Operations,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-ASSY-005,Torque & Fastener Control,Manufacturing,Assembly Operations,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-ASSY-006,Assembly Fixture & Tooling Use,Manufacturing,Assembly Operations,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Manufacturing)",role_specific,
+MFG-ASSY-001,Mechanical Assembly,Manufacturing,Assembly Operations,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-ASSY-002,Electrical & Wiring Assembly,Manufacturing,Assembly Operations,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-ASSY-003,Blueprint & Work Instruction Reading,Manufacturing,Assembly Operations,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-ASSY-004,Soldering & Brazing,Manufacturing,Assembly Operations,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-ASSY-005,Torque & Fastener Control,Manufacturing,Assembly Operations,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-ASSY-006,Assembly Fixture & Tooling Use,Manufacturing,Assembly Operations,Operational,technical,medium,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
 MFG-ASSY-007,In-Process Quality Checks,Manufacturing,Assembly Operations,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
 MFG-ASSY-008,Lean Assembly Practices,Manufacturing,Assembly Operations,Behavioral,process,medium,"improvement/methodology signal (area=Manufacturing, kw=True)",role_specific,REVIEW
-MFG-CNC-001,CNC Machine Operation,Manufacturing,CNC & Machining,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-CNC-002,CNC Program Setup & Verification,Manufacturing,CNC & Machining,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-CNC-003,Workholding & Fixturing,Manufacturing,CNC & Machining,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-CNC-004,Cutting Tool Selection & Management,Manufacturing,CNC & Machining,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-CNC-005,In-Process Part Inspection (Machining),Manufacturing,CNC & Machining,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
+MFG-CNC-001,CNC Machine Operation,Manufacturing,CNC & Machining,Technical,technical,high,explicit rubric anchor/edge-case decision,role_specific,REVIEW
+MFG-CNC-002,CNC Program Setup & Verification,Manufacturing,CNC & Machining,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-CNC-003,Workholding & Fixturing,Manufacturing,CNC & Machining,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-CNC-004,Cutting Tool Selection & Management,Manufacturing,CNC & Machining,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-CNC-005,In-Process Part Inspection (Machining),Manufacturing,CNC & Machining,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
 MFG-CNC-006,G-Code & CAM Programming Fundamentals,Engineering & R&D,CNC & Machining,Behavioral,digital,medium,"digital tech build/operate signal (area=Engineering & R&D, kw=True)",role_specific,REVIEW
-MFG-CNC-007,Machine Maintenance & Calibration (CNC),Manufacturing,CNC & Machining,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Manufacturing)",role_specific,
-MFG-CNC-008,Material Properties & Machinability,Manufacturing,CNC & Machining,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-OPS-002,Equipment Setup & Changeover,Manufacturing,Production Operations,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-OPS-003,Assembly & Production Tasks,Manufacturing,Production Operations,Operational,role_specific,high,explicit rubric anchor/edge-case decision,role_specific,
-MFG-PAINT-001,Surface Preparation,Manufacturing,Industrial Painting & Coating,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-PAINT-002,Spray Application Techniques,Manufacturing,Industrial Painting & Coating,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-PAINT-003,Powder Coating Operations,Manufacturing,Industrial Painting & Coating,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
+MFG-CNC-007,Machine Maintenance & Calibration (CNC),Manufacturing,CNC & Machining,Operational,technical,medium,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-CNC-008,Material Properties & Machinability,Manufacturing,CNC & Machining,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-OPS-002,Equipment Setup & Changeover,Manufacturing,Production Operations,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-OPS-003,Assembly & Production Tasks,Manufacturing,Production Operations,Operational,technical,high,explicit rubric anchor/edge-case decision,role_specific,REVIEW
+MFG-PAINT-001,Surface Preparation,Manufacturing,Industrial Painting & Coating,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-PAINT-002,Spray Application Techniques,Manufacturing,Industrial Painting & Coating,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-PAINT-003,Powder Coating Operations,Manufacturing,Industrial Painting & Coating,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
 MFG-PAINT-004,Paint Mixing & Color Matching,Manufacturing,Industrial Painting & Coating,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-PAINT-005,Coating Thickness Measurement,Manufacturing,Industrial Painting & Coating,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-PAINT-006,Paint Booth Operation & Maintenance,Manufacturing,Industrial Painting & Coating,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Manufacturing)",role_specific,
+MFG-PAINT-005,Coating Thickness Measurement,Manufacturing,Industrial Painting & Coating,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-PAINT-006,Paint Booth Operation & Maintenance,Manufacturing,Industrial Painting & Coating,Operational,technical,medium,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
 MFG-PAINT-007,Coating Defect Analysis,Manufacturing,Industrial Painting & Coating,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
 MFG-PAINT-008,Coating Safety & Hazardous Materials Handling,Manufacturing,Industrial Painting & Coating,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Manufacturing)",role_specific,
 MFG-PROC-001,Process Parameter Monitoring,Manufacturing,Process Control & Efficiency,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Manufacturing)",role_specific,
@@ -374,21 +374,21 @@ MFG-PROC-003,Cycle Time Optimization Support,Manufacturing,Process Control & Eff
 MFG-QUAL-001,First‑Piece Inspection,Manufacturing,Operator‑Level Quality Skills,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Manufacturing)",role_specific,
 MFG-QUAL-002,In‑Process Checks,Manufacturing,Operator‑Level Quality Skills,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Manufacturing)",role_specific,
 MFG-QUAL-003,Defect Identification & Escalation,Manufacturing,Operator‑Level Quality Skills,Behavioral,role_specific,low,"domain expertise fallback (type=Behavioral, area=Manufacturing)",role_specific,REVIEW
-MFG-SAFE-001,Safe Equipment Operation,Manufacturing,Safety & Compliance,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Manufacturing)",role_specific,
+MFG-SAFE-001,Safe Equipment Operation,Manufacturing,Safety & Compliance,Operational,technical,medium,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
 MFG-SAFE-002,Lockout/Tagout (LOTO) Awareness,Manufacturing,Safety & Compliance,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
 MFG-SAFE-003,PPE Usage & Compliance,Manufacturing,Safety & Compliance,Behavioral,role_specific,low,"domain expertise fallback (type=Behavioral, area=Manufacturing)",role_specific,REVIEW
 MFG-SUPP-003,Cross‑Functional Communication,Manufacturing,Production Support & Documentation,Behavioral,adaptive,medium,"general/behavioral capability (type=Behavioral, area=Manufacturing)",role_specific,REVIEW
-MFG-TECH-001,Basic Mechanical Troubleshooting,Manufacturing,Equipment & Technical Skills,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-TECH-002,Measurement Tool Usage,Manufacturing,Equipment & Technical Skills,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-TECH-003,Blueprint & Specification Reading,Manufacturing,Equipment & Technical Skills,Technical,role_specific,high,explicit rubric anchor/edge-case decision,role_specific,
-MFG-WELD-001,MIG/GMAW Welding,Manufacturing,Welding & Fabrication,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-WELD-002,TIG/GTAW Welding,Manufacturing,Welding & Fabrication,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-WELD-003,Stick/SMAW Welding,Manufacturing,Welding & Fabrication,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-WELD-004,Weld Joint Preparation & Fit-Up,Manufacturing,Welding & Fabrication,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-WELD-005,Weld Quality Inspection,Manufacturing,Welding & Fabrication,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-WELD-006,Fabrication Drawing & Symbol Reading,Manufacturing,Welding & Fabrication,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-WELD-007,Metal Cutting & Forming,Manufacturing,Welding & Fabrication,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Manufacturing)",role_specific,
-MFG-WELD-008,Welding Safety & Hot Work Practices,Manufacturing,Welding & Fabrication,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Manufacturing)",role_specific,
+MFG-TECH-001,Basic Mechanical Troubleshooting,Manufacturing,Equipment & Technical Skills,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-TECH-002,Measurement Tool Usage,Manufacturing,Equipment & Technical Skills,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-TECH-003,Blueprint & Specification Reading,Manufacturing,Equipment & Technical Skills,Technical,technical,high,explicit rubric anchor/edge-case decision,role_specific,REVIEW
+MFG-WELD-001,MIG/GMAW Welding,Manufacturing,Welding & Fabrication,Technical,technical,high,explicit rubric anchor/edge-case decision,role_specific,REVIEW
+MFG-WELD-002,TIG/GTAW Welding,Manufacturing,Welding & Fabrication,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-WELD-003,Stick/SMAW Welding,Manufacturing,Welding & Fabrication,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-WELD-004,Weld Joint Preparation & Fit-Up,Manufacturing,Welding & Fabrication,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-WELD-005,Weld Quality Inspection,Manufacturing,Welding & Fabrication,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-WELD-006,Fabrication Drawing & Symbol Reading,Manufacturing,Welding & Fabrication,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-WELD-007,Metal Cutting & Forming,Manufacturing,Welding & Fabrication,Technical,technical,high,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
+MFG-WELD-008,Welding Safety & Hot Work Practices,Manufacturing,Welding & Fabrication,Safety,technical,medium,"equipment/hardware hands-on signal (area=Manufacturing, kw=True)",role_specific,REVIEW
 MGMT-ADM-001,Policy & Procedure Enforcement,Management,Administrative & Compliance Management,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Management)",role_specific,
 MGMT-ADM-002,Documentation Oversight,Management,Administrative & Compliance Management,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Management)",role_specific,
 MGMT-ADM-003,Incident Reporting Oversight,Management,Administrative & Compliance Management,Operational,process,medium,"improvement/methodology signal (area=Management, kw=True)",role_specific,REVIEW
@@ -451,17 +451,17 @@ MKT-DIG-003,Social Media Management,Marketing,Digital Marketing,Behavioral,adapt
 MKT-MRKT-001,Competitor Research,Marketing,Market Research & Insights,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Marketing)",role_specific,
 MKT-MRKT-002,Customer Insights Gathering,Marketing,Market Research & Insights,Behavioral,role_specific,low,"domain expertise fallback (type=Behavioral, area=Marketing)",role_specific,REVIEW
 MKT-MRKT-003,Market Trend Analysis,Marketing,Market Research & Insights,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Marketing)",role_specific,
-MNT-CM-004,Breakdown Response & Repair,Maintenance & Reliab,Corrective Maintenance,Technical,role_specific,high,explicit rubric anchor/edge-case decision,role_specific,
+MNT-CM-004,Breakdown Response & Repair,Maintenance & Reliab,Corrective Maintenance,Technical,technical,high,explicit rubric anchor/edge-case decision,role_specific,REVIEW
 MNT-CM-005,Root Cause Analysis (Maintenance),Maintenance & Reliab,Corrective Maintenance,Technical,process,medium,"improvement/methodology signal (area=Maintenance & Reliab, kw=True)",role_specific,REVIEW
 MNT-CM-006,Spare Parts Management,Maintenance & Reliab,Corrective Maintenance,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Maintenance & Reliab)",role_specific,
 MNT-KPI-017,Maintenance KPI Tracking,Maintenance & Reliab,Maintenance Performance,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Maintenance & Reliab)",role_specific,
 MNT-KPI-018,Continuous Improvement (Maintenance),Maintenance & Reliab,Maintenance Performance,Behavioral,process,medium,"improvement/methodology signal (area=Maintenance & Reliab, kw=True)",role_specific,REVIEW
-MNT-PM-001,Preventive Maintenance Planning,Maintenance & Reliab,Preventive Maintenance,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Maintenance & Reliab)",role_specific,
+MNT-PM-001,Preventive Maintenance Planning,Maintenance & Reliab,Preventive Maintenance,Operational,technical,medium,"equipment/hardware hands-on signal (area=Maintenance & Reliab, kw=True)",role_specific,REVIEW
 MNT-PM-002,PM Task Execution,Maintenance & Reliab,Preventive Maintenance,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Maintenance & Reliab)",role_specific,
 MNT-PM-003,CMMS Data Management,Maintenance & Reliab,Preventive Maintenance,Operational,role_specific,high,explicit rubric anchor/edge-case decision,role_specific,
-MNT-REL-007,Equipment Criticality Assessment,Maintenance & Reliab,Reliability Engineering,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Maintenance & Reliab)",role_specific,
-MNT-REL-008,Predictive Maintenance Techniques,Maintenance & Reliab,Reliability Engineering,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Maintenance & Reliab)",role_specific,
-MNT-REL-009,Reliability Data Analysis,Maintenance & Reliab,Reliability Engineering,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Maintenance & Reliab)",role_specific,
+MNT-REL-007,Equipment Criticality Assessment,Maintenance & Reliab,Reliability Engineering,Technical,technical,high,"equipment/hardware hands-on signal (area=Maintenance & Reliab, kw=True)",role_specific,REVIEW
+MNT-REL-008,Predictive Maintenance Techniques,Maintenance & Reliab,Reliability Engineering,Technical,technical,high,"equipment/hardware hands-on signal (area=Maintenance & Reliab, kw=True)",role_specific,REVIEW
+MNT-REL-009,Reliability Data Analysis,Maintenance & Reliab,Reliability Engineering,Technical,digital,high,explicit rubric anchor/edge-case decision,role_specific,REVIEW
 MNT-REL-010,Maintenance Strategy Development,Maintenance & Reliab,Reliability Engineering,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Maintenance & Reliab)",role_specific,
 MNT-SAF-014,Lockout-Tagout Compliance,Maintenance & Reliab,Maintenance Safety,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Maintenance & Reliab)",role_specific,
 MNT-SAF-015,Confined Space & Hot Work Safety,Maintenance & Reliab,Maintenance Safety,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Maintenance & Reliab)",role_specific,
@@ -624,7 +624,7 @@ SERV-DOC-002,Inspection Report Completion,Service & Support,Documentation & Repo
 SERV-DOC-003,Parts & Labor Recording,Service & Support,Documentation & Reporting,Operational,process,medium,"improvement/methodology signal (area=Service & Support, kw=True)",role_specific,REVIEW
 SERV-FLD-001,Field Service Readiness,Service & Support,Field Operations,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Service & Support)",role_specific,
 SERV-FLD-002,Site Assessment,Service & Support,Field Operations,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Service & Support)",role_specific,
-SERV-FLD-003,Equipment Inspection (Onsite),Service & Support,Field Operations,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Service & Support)",role_specific,
+SERV-FLD-003,Equipment Inspection (Onsite),Service & Support,Field Operations,Technical,technical,high,"equipment/hardware hands-on signal (area=Service & Support, kw=True)",role_specific,REVIEW
 SERV-FLD-004,Customer Site Conduct,Service & Support,Field Operations,Behavioral,adaptive,medium,"general/behavioral capability (type=Behavioral, area=Service & Support)",role_specific,REVIEW
 SERV-FLD-005,Job Completion Verification,Service & Support,Field Operations,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Service & Support)",role_specific,
 SERV-INT-001,Professional Conduct (Service),Service & Support,Interpersonal & Professional Conduct,Behavioral,adaptive,medium,"general/behavioral capability (type=Behavioral, area=Service & Support)",role_specific,REVIEW
@@ -633,14 +633,14 @@ SERV-INT-003,Adaptability (Service),Service & Support,Interpersonal & Profession
 SERV-PLAN-001,Job Planning,Service & Support,Planning & Coordination,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Service & Support)",role_specific,
 SERV-PLAN-002,Parts & Tools Preparation,Service & Support,Planning & Coordination,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Service & Support)",role_specific,
 SERV-PLAN-003,Time Estimation,Service & Support,Planning & Coordination,Behavioral,adaptive,medium,"general/behavioral capability (type=Behavioral, area=Service & Support)",role_specific,REVIEW
-SERV-REP-001,Equipment Troubleshooting (Service),Service & Support,Repairs & Troubleshooting,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Service & Support)",role_specific,
-SERV-REP-002,Component Replacement,Service & Support,Repairs & Troubleshooting,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Service & Support)",role_specific,
+SERV-REP-001,Equipment Troubleshooting (Service),Service & Support,Repairs & Troubleshooting,Technical,technical,high,"equipment/hardware hands-on signal (area=Service & Support, kw=True)",role_specific,REVIEW
+SERV-REP-002,Component Replacement,Service & Support,Repairs & Troubleshooting,Technical,technical,high,explicit rubric anchor/edge-case decision,role_specific,REVIEW
 SERV-REP-003,Preventive Maintenance Execution,Service & Support,Repairs & Troubleshooting,Technical,process,medium,"improvement/methodology signal (area=Service & Support, kw=True)",role_specific,REVIEW
-SERV-REP-004,Diagnostic Tool Use,Service & Support,Repairs & Troubleshooting,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Service & Support)",role_specific,
+SERV-REP-004,Diagnostic Tool Use,Service & Support,Repairs & Troubleshooting,Technical,technical,high,"equipment/hardware hands-on signal (area=Service & Support, kw=True)",role_specific,REVIEW
 SERV-SAFE-001,PPE Use,Service & Support,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Service & Support)",role_specific,
 SERV-SAFE-002,Lockout/Tagout (Service),Service & Support,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Service & Support)",role_specific,
 SERV-SAFE-003,Hazard Identification (Service),Service & Support,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Service & Support)",role_specific,
-SERV-SAFE-004,Safe Equipment Operation (Service),Service & Support,Safety & Compliance,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Service & Support)",role_specific,
+SERV-SAFE-004,Safe Equipment Operation (Service),Service & Support,Safety & Compliance,Safety,technical,medium,"equipment/hardware hands-on signal (area=Service & Support, kw=True)",role_specific,REVIEW
 TD-DEL-008,Classroom Facilitation (T&D),Training & Development,Training Delivery,Behavioral,adaptive,high,"general/behavioral capability (type=Behavioral, area=Training & Development)",adaptive,
 TD-DEL-009,On-the-Job Training Coordination,Training & Development,Training Delivery,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Training & Development)",adaptive,REVIEW
 TD-DEL-010,Virtual Training Delivery,Training & Development,Training Delivery,Behavioral,adaptive,medium,"general/behavioral capability (type=Behavioral, area=Training & Development)",adaptive,
@@ -659,28 +659,28 @@ TD-LMS-014,Learning Analytics & Reporting,Training & Development,Learning Techno
 TD-TNA-001,Training Needs Assessment,Training & Development,Needs Analysis,Operational,adaptive,high,"general/behavioral capability (type=Operational, area=Training & Development)",adaptive,
 TD-TNA-002,Competency Framework Application,Training & Development,Needs Analysis,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Training & Development)",adaptive,REVIEW
 TD-TNA-003,Job Task Analysis,Training & Development,Needs Analysis,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Training & Development)",adaptive,REVIEW
-TECH-DIAG-001,Basic Diagnostics,Technical Equip & Sys,Diagnostics,Technical,process,medium,"improvement/methodology signal (area=Technical Equip & Sys, kw=True)",role_specific,REVIEW
-TECH-DIAG-002,Electrical Diagnostics,Technical Equip & Sys,Diagnostics,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-DIAG-003,Hydraulic Diagnostics,Technical Equip & Sys,Diagnostics,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-DIAG-004,Mechanical Diagnostics,Technical Equip & Sys,Diagnostics,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-DOC-001,Technical Manual Interpretation,Technical Equip & Sys,Technical Documentation,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-DOC-002,Service Bulletin Awareness,Technical Equip & Sys,Technical Documentation,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-DOC-003,Repair Documentation (Technical),Technical Equip & Sys,Technical Documentation,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Technical Equip & Sys)",role_specific,
-TECH-ELEC-001,Electrical Component Replacement,Technical Equip & Sys,Electrical Systems,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-ELEC-002,Electrical Schematic Reading,Technical Equip & Sys,Electrical Systems,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-ELEC-003,Battery & Charging System Testing,Technical Equip & Sys,Electrical Systems,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-EQ-001,Basic Equipment Operation,Technical Equip & Sys,Equipment Operation,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-EQ-002,Advanced Equipment Operation,Technical Equip & Sys,Equipment Operation,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-EQ-003,Equipment Startup & Shutdown,Technical Equip & Sys,Equipment Operation,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-HYD-001,Hydraulic Component Replacement,Technical Equip & Sys,Hydraulic Systems,Technical,process,medium,"improvement/methodology signal (area=Technical Equip & Sys, kw=True)",role_specific,REVIEW
-TECH-HYD-002,Hydraulic Fluid Management,Technical Equip & Sys,Hydraulic Systems,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-HYD-003,Hydraulic Schematic Interpretation,Technical Equip & Sys,Hydraulic Systems,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-MECH-001,Mechanical Assembly & Disassembly,Technical Equip & Sys,Mechanical Systems,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-MECH-002,Lubrication & Wear Inspection,Technical Equip & Sys,Mechanical Systems,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-MECH-003,Torque Application,Technical Equip & Sys,Mechanical Systems,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-SYS-001,Telematics System Use,Technical Equip & Sys,Systems & Software,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-SYS-002,Diagnostic Software Use,Technical Equip & Sys,Systems & Software,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
-TECH-SYS-003,Firmware & Software Updates,Technical Equip & Sys,Systems & Software,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Technical Equip & Sys)",role_specific,
+TECH-DIAG-001,Basic Diagnostics,Technical Equip & Sys,Diagnostics,Technical,process,medium,"improvement/methodology signal (area=Technical Equip & Sys, kw=True)",technical,REVIEW
+TECH-DIAG-002,Electrical Diagnostics,Technical Equip & Sys,Diagnostics,Technical,technical,high,explicit rubric anchor/edge-case decision,technical,
+TECH-DIAG-003,Hydraulic Diagnostics,Technical Equip & Sys,Diagnostics,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
+TECH-DIAG-004,Mechanical Diagnostics,Technical Equip & Sys,Diagnostics,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
+TECH-DOC-001,Technical Manual Interpretation,Technical Equip & Sys,Technical Documentation,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
+TECH-DOC-002,Service Bulletin Awareness,Technical Equip & Sys,Technical Documentation,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
+TECH-DOC-003,Repair Documentation (Technical),Technical Equip & Sys,Technical Documentation,Operational,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=False)",technical,
+TECH-ELEC-001,Electrical Component Replacement,Technical Equip & Sys,Electrical Systems,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
+TECH-ELEC-002,Electrical Schematic Reading,Technical Equip & Sys,Electrical Systems,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
+TECH-ELEC-003,Battery & Charging System Testing,Technical Equip & Sys,Electrical Systems,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=False)",technical,
+TECH-EQ-001,Basic Equipment Operation,Technical Equip & Sys,Equipment Operation,Technical,technical,high,explicit rubric anchor/edge-case decision,technical,
+TECH-EQ-002,Advanced Equipment Operation,Technical Equip & Sys,Equipment Operation,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
+TECH-EQ-003,Equipment Startup & Shutdown,Technical Equip & Sys,Equipment Operation,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
+TECH-HYD-001,Hydraulic Component Replacement,Technical Equip & Sys,Hydraulic Systems,Technical,technical,high,explicit rubric anchor/edge-case decision,technical,
+TECH-HYD-002,Hydraulic Fluid Management,Technical Equip & Sys,Hydraulic Systems,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
+TECH-HYD-003,Hydraulic Schematic Interpretation,Technical Equip & Sys,Hydraulic Systems,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
+TECH-MECH-001,Mechanical Assembly & Disassembly,Technical Equip & Sys,Mechanical Systems,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
+TECH-MECH-002,Lubrication & Wear Inspection,Technical Equip & Sys,Mechanical Systems,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
+TECH-MECH-003,Torque Application,Technical Equip & Sys,Mechanical Systems,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
+TECH-SYS-001,Telematics System Use,Technical Equip & Sys,Systems & Software,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
+TECH-SYS-002,Diagnostic Software Use,Technical Equip & Sys,Systems & Software,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
+TECH-SYS-003,Firmware & Software Updates,Technical Equip & Sys,Systems & Software,Technical,technical,high,"equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",technical,
 TRD-CMP-009,Trade Compliance Program Admin,Import-Export & Trade,Trade Compliance,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Import-Export & Trade)",role_specific,
 TRD-CMP-010,Sanctions & Embargo Compliance,Import-Export & Trade,Trade Compliance,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Import-Export & Trade)",role_specific,
 TRD-CMP-011,Trade Compliance Training,Import-Export & Trade,Trade Compliance,Behavioral,role_specific,low,"domain expertise fallback (type=Behavioral, area=Import-Export & Trade)",role_specific,REVIEW
@@ -705,9 +705,9 @@ WHL-INV-001,Cycle Counting,Warehouse & Logistics,Inventory Management,Operationa
 WHL-INV-002,Inventory Accuracy Maintenance,Warehouse & Logistics,Inventory Management,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Warehouse & Logistics)",role_specific,
 WHL-INV-003,Stock Location Management,Warehouse & Logistics,Inventory Management,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Warehouse & Logistics)",role_specific,
 WHL-INV-004,Reorder Point Monitoring,Warehouse & Logistics,Inventory Management,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Warehouse & Logistics)",role_specific,
-WHL-MHE-001,Forklift Operation,Warehouse & Logistics,Material Handling Equipment,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Warehouse & Logistics)",role_specific,
-WHL-MHE-002,Pallet Jack Operation,Warehouse & Logistics,Material Handling Equipment,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Warehouse & Logistics)",role_specific,
-WHL-MHE-003,Equipment Pre-Use Inspection,Warehouse & Logistics,Material Handling Equipment,Safety,role_specific,medium,"domain expertise fallback (type=Safety, area=Warehouse & Logistics)",role_specific,
+WHL-MHE-001,Forklift Operation,Warehouse & Logistics,Material Handling Equipment,Technical,technical,high,explicit rubric anchor/edge-case decision,role_specific,REVIEW
+WHL-MHE-002,Pallet Jack Operation,Warehouse & Logistics,Material Handling Equipment,Operational,technical,medium,"equipment/hardware hands-on signal (area=Warehouse & Logistics, kw=True)",role_specific,REVIEW
+WHL-MHE-003,Equipment Pre-Use Inspection,Warehouse & Logistics,Material Handling Equipment,Safety,technical,medium,"equipment/hardware hands-on signal (area=Warehouse & Logistics, kw=True)",role_specific,REVIEW
 WHL-PICK-001,Order Picking,Warehouse & Logistics,Picking & Order Fulfillment,Operational,digital,medium,"digital tech build/operate signal (area=Warehouse & Logistics, kw=True)",role_specific,REVIEW
 WHL-PICK-002,Kitting & Assembly Staging,Warehouse & Logistics,Picking & Order Fulfillment,Technical,role_specific,medium,"domain expertise fallback (type=Technical, area=Warehouse & Logistics)",role_specific,
 WHL-PICK-003,Batch & Wave Processing,Warehouse & Logistics,Picking & Order Fulfillment,Operational,role_specific,medium,"domain expertise fallback (type=Operational, area=Warehouse & Logistics)",role_specific,

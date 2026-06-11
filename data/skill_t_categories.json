@@ -2225,11 +2225,11 @@
   "area": "Facilities",
   "sub": "Equipment Maintenance & Repair",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Facilities)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Facilities, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "FAC-EQP-002",
@@ -2237,11 +2237,11 @@
   "area": "Facilities",
   "sub": "Equipment Maintenance & Repair",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Facilities)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Facilities, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "FAC-EQP-003",
@@ -2273,11 +2273,11 @@
   "area": "Facilities",
   "sub": "Facility Operations",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Facilities)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Facilities, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "FAC-OPS-003",
@@ -2309,11 +2309,11 @@
   "area": "Facilities",
   "sub": "Preventive Maintenance",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Facilities)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Facilities, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "FAC-PM-003",
@@ -2345,11 +2345,11 @@
   "area": "Facilities",
   "sub": "Safety & Environmental Alignment",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Facilities)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Facilities, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "FAC-SAFE-003",
@@ -2993,11 +2993,11 @@
   "area": "Mfg Operations",
   "sub": "Equipment & Maintenance",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Mfg Operations)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "IEM-EQM-002",
@@ -3005,11 +3005,11 @@
   "area": "Mfg Operations",
   "sub": "Equipment & Maintenance",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Mfg Operations)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "IEM-EQM-003",
@@ -3113,11 +3113,11 @@
   "area": "Mfg Operations",
   "sub": "Production Operations",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Mfg Operations)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "IEM-PROD-003",
@@ -3125,11 +3125,11 @@
   "area": "Mfg Operations",
   "sub": "Production Operations",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Mfg Operations)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "explicit rubric anchor/edge-case decision",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "IEM-PROD-004",
@@ -3137,11 +3137,11 @@
   "area": "Mfg Operations",
   "sub": "Production Operations",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Mfg Operations)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "IEM-PROD-005",
@@ -3185,11 +3185,11 @@
   "area": "Mfg Operations",
   "sub": "Production Operations",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Mfg Operations)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "IEM-PROD-009",
@@ -3197,11 +3197,11 @@
   "area": "Mfg Operations",
   "sub": "Production Operations",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Mfg Operations)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "IEM-PROD-010",
@@ -3221,11 +3221,11 @@
   "area": "Mfg Operations",
   "sub": "Quality & Inspection",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Mfg Operations)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "IEM-QA-002",
@@ -3257,11 +3257,11 @@
   "area": "Mfg Operations",
   "sub": "Quality & Inspection",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Mfg Operations)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Mfg Operations, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "IEM-SAFE-001",
@@ -4013,11 +4013,11 @@
   "area": "Logistics & Supply Chain",
   "sub": "Safety & Compliance",
   "skill_type": "Safety",
-  "t_category": "role_specific",
+  "t_category": "technical",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Logistics & Supply Chain)",
+  "rationale": "equipment/hardware hands-on signal (area=Logistics & Supply Chain, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "LSC-SAFE-002",
@@ -4121,11 +4121,11 @@
   "area": "Manufacturing",
   "sub": "Assembly Operations",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-ASSY-002",
@@ -4133,11 +4133,11 @@
   "area": "Manufacturing",
   "sub": "Assembly Operations",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-ASSY-003",
@@ -4145,11 +4145,11 @@
   "area": "Manufacturing",
   "sub": "Assembly Operations",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-ASSY-004",
@@ -4157,11 +4157,11 @@
   "area": "Manufacturing",
   "sub": "Assembly Operations",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-ASSY-005",
@@ -4169,11 +4169,11 @@
   "area": "Manufacturing",
   "sub": "Assembly Operations",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-ASSY-006",
@@ -4181,11 +4181,11 @@
   "area": "Manufacturing",
   "sub": "Assembly Operations",
   "skill_type": "Operational",
-  "t_category": "role_specific",
+  "t_category": "technical",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Operational, area=Manufacturing)",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-ASSY-007",
@@ -4217,11 +4217,11 @@
   "area": "Manufacturing",
   "sub": "CNC & Machining",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "explicit rubric anchor/edge-case decision",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-CNC-002",
@@ -4229,11 +4229,11 @@
   "area": "Manufacturing",
   "sub": "CNC & Machining",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-CNC-003",
@@ -4241,11 +4241,11 @@
   "area": "Manufacturing",
   "sub": "CNC & Machining",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-CNC-004",
@@ -4253,11 +4253,11 @@
   "area": "Manufacturing",
   "sub": "CNC & Machining",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-CNC-005",
@@ -4265,11 +4265,11 @@
   "area": "Manufacturing",
   "sub": "CNC & Machining",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-CNC-006",
@@ -4289,11 +4289,11 @@
   "area": "Manufacturing",
   "sub": "CNC & Machining",
   "skill_type": "Operational",
-  "t_category": "role_specific",
+  "t_category": "technical",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Operational, area=Manufacturing)",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-CNC-008",
@@ -4301,11 +4301,11 @@
   "area": "Manufacturing",
   "sub": "CNC & Machining",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-OPS-002",
@@ -4313,11 +4313,11 @@
   "area": "Manufacturing",
   "sub": "Production Operations",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-OPS-003",
@@ -4325,11 +4325,11 @@
   "area": "Manufacturing",
   "sub": "Production Operations",
   "skill_type": "Operational",
-  "t_category": "role_specific",
+  "t_category": "technical",
   "confidence": "high",
   "rationale": "explicit rubric anchor/edge-case decision",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-PAINT-001",
@@ -4337,11 +4337,11 @@
   "area": "Manufacturing",
   "sub": "Industrial Painting & Coating",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-PAINT-002",
@@ -4349,11 +4349,11 @@
   "area": "Manufacturing",
   "sub": "Industrial Painting & Coating",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-PAINT-003",
@@ -4361,11 +4361,11 @@
   "area": "Manufacturing",
   "sub": "Industrial Painting & Coating",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-PAINT-004",
@@ -4385,11 +4385,11 @@
   "area": "Manufacturing",
   "sub": "Industrial Painting & Coating",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-PAINT-006",
@@ -4397,11 +4397,11 @@
   "area": "Manufacturing",
   "sub": "Industrial Painting & Coating",
   "skill_type": "Operational",
-  "t_category": "role_specific",
+  "t_category": "technical",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Operational, area=Manufacturing)",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-PAINT-007",
@@ -4505,11 +4505,11 @@
   "area": "Manufacturing",
   "sub": "Safety & Compliance",
   "skill_type": "Operational",
-  "t_category": "role_specific",
+  "t_category": "technical",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Operational, area=Manufacturing)",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-SAFE-002",
@@ -4553,11 +4553,11 @@
   "area": "Manufacturing",
   "sub": "Equipment & Technical Skills",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-TECH-002",
@@ -4565,11 +4565,11 @@
   "area": "Manufacturing",
   "sub": "Equipment & Technical Skills",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-TECH-003",
@@ -4577,11 +4577,11 @@
   "area": "Manufacturing",
   "sub": "Equipment & Technical Skills",
   "skill_type": "Technical",
-  "t_category": "role_specific",
+  "t_category": "technical",
   "confidence": "high",
   "rationale": "explicit rubric anchor/edge-case decision",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-WELD-001",
@@ -4589,11 +4589,11 @@
   "area": "Manufacturing",
   "sub": "Welding & Fabrication",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "explicit rubric anchor/edge-case decision",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-WELD-002",
@@ -4601,11 +4601,11 @@
   "area": "Manufacturing",
   "sub": "Welding & Fabrication",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-WELD-003",
@@ -4613,11 +4613,11 @@
   "area": "Manufacturing",
   "sub": "Welding & Fabrication",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-WELD-004",
@@ -4625,11 +4625,11 @@
   "area": "Manufacturing",
   "sub": "Welding & Fabrication",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-WELD-005",
@@ -4637,11 +4637,11 @@
   "area": "Manufacturing",
   "sub": "Welding & Fabrication",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-WELD-006",
@@ -4649,11 +4649,11 @@
   "area": "Manufacturing",
   "sub": "Welding & Fabrication",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-WELD-007",
@@ -4661,11 +4661,11 @@
   "area": "Manufacturing",
   "sub": "Welding & Fabrication",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Manufacturing)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MFG-WELD-008",
@@ -4673,11 +4673,11 @@
   "area": "Manufacturing",
   "sub": "Welding & Fabrication",
   "skill_type": "Safety",
-  "t_category": "role_specific",
+  "t_category": "technical",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Manufacturing)",
+  "rationale": "equipment/hardware hands-on signal (area=Manufacturing, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MGMT-ADM-001",
@@ -5429,11 +5429,11 @@
   "area": "Maintenance & Reliab",
   "sub": "Corrective Maintenance",
   "skill_type": "Technical",
-  "t_category": "role_specific",
+  "t_category": "technical",
   "confidence": "high",
   "rationale": "explicit rubric anchor/edge-case decision",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MNT-CM-005",
@@ -5489,11 +5489,11 @@
   "area": "Maintenance & Reliab",
   "sub": "Preventive Maintenance",
   "skill_type": "Operational",
-  "t_category": "role_specific",
+  "t_category": "technical",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Operational, area=Maintenance & Reliab)",
+  "rationale": "equipment/hardware hands-on signal (area=Maintenance & Reliab, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MNT-PM-002",
@@ -5525,11 +5525,11 @@
   "area": "Maintenance & Reliab",
   "sub": "Reliability Engineering",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Maintenance & Reliab)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Maintenance & Reliab, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MNT-REL-008",
@@ -5537,11 +5537,11 @@
   "area": "Maintenance & Reliab",
   "sub": "Reliability Engineering",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Maintenance & Reliab)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Maintenance & Reliab, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MNT-REL-009",
@@ -5549,11 +5549,11 @@
   "area": "Maintenance & Reliab",
   "sub": "Reliability Engineering",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Maintenance & Reliab)",
+  "t_category": "digital",
+  "confidence": "high",
+  "rationale": "explicit rubric anchor/edge-case decision",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "MNT-REL-010",
@@ -7505,11 +7505,11 @@
   "area": "Service & Support",
   "sub": "Field Operations",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Service & Support)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Service & Support, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "SERV-FLD-004",
@@ -7613,11 +7613,11 @@
   "area": "Service & Support",
   "sub": "Repairs & Troubleshooting",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Service & Support)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Service & Support, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "SERV-REP-002",
@@ -7625,11 +7625,11 @@
   "area": "Service & Support",
   "sub": "Repairs & Troubleshooting",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Service & Support)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "explicit rubric anchor/edge-case decision",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "SERV-REP-003",
@@ -7649,11 +7649,11 @@
   "area": "Service & Support",
   "sub": "Repairs & Troubleshooting",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Service & Support)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Service & Support, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "SERV-SAFE-001",
@@ -7697,11 +7697,11 @@
   "area": "Service & Support",
   "sub": "Safety & Compliance",
   "skill_type": "Safety",
-  "t_category": "role_specific",
+  "t_category": "technical",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Service & Support)",
+  "rationale": "equipment/hardware hands-on signal (area=Service & Support, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "TD-DEL-008",
@@ -7928,7 +7928,7 @@
   "t_category": "process",
   "confidence": "medium",
   "rationale": "improvement/methodology signal (area=Technical Equip & Sys, kw=True)",
-  "area_proxy_t": "role_specific",
+  "area_proxy_t": "technical",
   "review_flag": "REVIEW"
  },
  {
@@ -7937,10 +7937,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Diagnostics",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "explicit rubric anchor/edge-case decision",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -7949,10 +7949,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Diagnostics",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -7961,10 +7961,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Diagnostics",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -7973,10 +7973,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Technical Documentation",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -7985,10 +7985,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Technical Documentation",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -7997,10 +7997,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Technical Documentation",
   "skill_type": "Operational",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Operational, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=False)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -8009,10 +8009,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Electrical Systems",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -8021,10 +8021,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Electrical Systems",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -8033,10 +8033,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Electrical Systems",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=False)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -8045,10 +8045,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Equipment Operation",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "explicit rubric anchor/edge-case decision",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -8057,10 +8057,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Equipment Operation",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -8069,10 +8069,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Equipment Operation",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -8081,11 +8081,11 @@
   "area": "Technical Equip & Sys",
   "sub": "Hydraulic Systems",
   "skill_type": "Technical",
-  "t_category": "process",
-  "confidence": "medium",
-  "rationale": "improvement/methodology signal (area=Technical Equip & Sys, kw=True)",
-  "area_proxy_t": "role_specific",
-  "review_flag": "REVIEW"
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "explicit rubric anchor/edge-case decision",
+  "area_proxy_t": "technical",
+  "review_flag": ""
  },
  {
   "id": "TECH-HYD-002",
@@ -8093,10 +8093,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Hydraulic Systems",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -8105,10 +8105,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Hydraulic Systems",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -8117,10 +8117,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Mechanical Systems",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -8129,10 +8129,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Mechanical Systems",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -8141,10 +8141,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Mechanical Systems",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -8153,10 +8153,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Systems & Software",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -8165,10 +8165,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Systems & Software",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -8177,10 +8177,10 @@
   "area": "Technical Equip & Sys",
   "sub": "Systems & Software",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Technical Equip & Sys)",
-  "area_proxy_t": "role_specific",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "equipment/hardware hands-on signal (area=Technical Equip & Sys, kw=True)",
+  "area_proxy_t": "technical",
   "review_flag": ""
  },
  {
@@ -8477,11 +8477,11 @@
   "area": "Warehouse & Logistics",
   "sub": "Material Handling Equipment",
   "skill_type": "Technical",
-  "t_category": "role_specific",
-  "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Technical, area=Warehouse & Logistics)",
+  "t_category": "technical",
+  "confidence": "high",
+  "rationale": "explicit rubric anchor/edge-case decision",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "WHL-MHE-002",
@@ -8489,11 +8489,11 @@
   "area": "Warehouse & Logistics",
   "sub": "Material Handling Equipment",
   "skill_type": "Operational",
-  "t_category": "role_specific",
+  "t_category": "technical",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Operational, area=Warehouse & Logistics)",
+  "rationale": "equipment/hardware hands-on signal (area=Warehouse & Logistics, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "WHL-MHE-003",
@@ -8501,11 +8501,11 @@
   "area": "Warehouse & Logistics",
   "sub": "Material Handling Equipment",
   "skill_type": "Safety",
-  "t_category": "role_specific",
+  "t_category": "technical",
   "confidence": "medium",
-  "rationale": "domain expertise fallback (type=Safety, area=Warehouse & Logistics)",
+  "rationale": "equipment/hardware hands-on signal (area=Warehouse & Logistics, kw=True)",
   "area_proxy_t": "role_specific",
-  "review_flag": ""
+  "review_flag": "REVIEW"
  },
  {
   "id": "WHL-PICK-001",
